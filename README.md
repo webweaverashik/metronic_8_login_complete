@@ -1,7 +1,7 @@
 # 🎓 Unique Coaching Management System (UCMS)
 *A Complete Solution for Managing Coaching Centers Efficiently*
 
-![UCMS Banner](https://your-image-url.com) <!-- Replace with actual banner image URL -->
+![UCMS Banner](https://scontent.fdac31-2.fna.fbcdn.net/v/t39.30808-6/480108574_1024583979717464_4542928628394930376_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=VkeSXFqswrgQ7kNvgFMbtM-&_nc_oc=AdjT2pmI_66TEjiMnJvJXxjlhgLihLdA-ejaNHSDiJ_x01X424DJGnA8YIBF8tGeN08&_nc_zt=23&_nc_ht=scontent.fdac31-2.fna&_nc_gid=AZzbO-hGt2VJyRBJa9L5Ibx&oh=00_AYDzOomTdX_5QjjUV2S0Rn85Nm0lyhasTa4w36lzqBoLag&oe=67C7AA49) <!-- Replace with actual banner image URL -->
 
 ## 📖 About UCMS
 **Unique Coaching Management System (UCMS)** is an **all-in-one coaching center management solution** designed to streamline **student admissions, fee collection, attendance tracking, notes/sheets distribution, teacher scheduling, and role-based access control**.  
@@ -83,11 +83,11 @@ php artisan serve
 npm run dev
 ```
 
-Set up your database connection in .env:<br>
+Set up your database connection in `.env`
 ```bash
 DB_DATABASE=ucms_db
 DB_USERNAME=root
 DB_PASSWORD=your_password
 ```
 
-Now, you can access UCMS at http://localhost:8000.
+Now, you can access UCMS at `http://localhost:8000`.
