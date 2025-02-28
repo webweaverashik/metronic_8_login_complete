@@ -56,8 +56,8 @@ Before installing UCMS, ensure you have:
 
 ### 2️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-github/UCMS.git
-cd UCMS
+git clone https://github.com/webweaverashik/uniquecoachingbd.git
+cd uniquecoachingbd
 ```
 
 ### 3️⃣ Install Dependencies
