@@ -95,7 +95,7 @@ Now, you can access UCMS at `http://localhost:8000`.
 
 ## 📜 License
 **This project is licensed under the MIT License.** <br>
-📌 **[Read Full License](https://opensource.org/licenses/MIT){:target="_blank"}**
+📌 **[Read Full License](https://opensource.org/licenses/MIT)** <a href="https://opensource.org/licenses/MIT" target="_blank"></a>
 
 
 ## 📞 Support & Contact
