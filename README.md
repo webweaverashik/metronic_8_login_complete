@@ -98,7 +98,7 @@ Now, you can access UCMS at `http://localhost:8000`.
 
 ## 📞 Support & Contact
 For any queries, feature requests, or issues, feel free to reach out:
-- 📧 Email: support@uniquecoachingbd.com
-- 🌐 Website: www.uniquecoachingbd.com
+- 📧 Email: `support@uniquecoachingbd.com`
+- 🌐 Website: `www.uniquecoachingbd.com`
 - 🐛 Report Issues: GitHub Issues
 - 🌟 Like This Project? Give It a Star ⭐ on GitHub!
