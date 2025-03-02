@@ -4,7 +4,7 @@
         <!--begin::Logo image-->
         <a href="{{ url('/') }}">
             <img alt="Logo" src="{{ asset('assets/img/UC_Logo_white_text.png') }}" class="h-50px app-sidebar-logo-default" />
-            <img alt="Logo" src="assets/media/logos/default-small.svg" class="h-20px app-sidebar-logo-minimize" />
+            <img alt="Logo" src="{{ asset('assets/img/UC_Logo_white_text.png') }}" class="h-20px app-sidebar-logo-minimize" />
         </a>
         <!--end::Logo image-->
         <!--begin::Sidebar toggle-->
