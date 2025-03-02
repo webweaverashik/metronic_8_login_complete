@@ -36,7 +36,7 @@ class UserSeeder extends Seeder
 
         // Sample Branch Accountant
         User::create([
-            'full_name' => 'Masum Billah',
+            'full_name' => 'Ramjan Shaikh',
             'email' => 'accountant@uniquecoachingbd.com',
             'mobile_number' => '01900000000',
             'password' => Hash::make('accountant123'),

@@ -22,7 +22,6 @@
         <br>
         <button type="submit">Login</button>
     </form>
-    <p>Don't have an account? <a href="{{ route('register') }}">Register</a></p>
 
     @if (session('message'))
         <p style="color: green;">{{ session('message') }}</p>

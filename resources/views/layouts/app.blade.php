@@ -66,6 +66,42 @@
     <!--end::Global Javascript Bundle-->
     @stack('vendor-scripts')
     @stack('custom-scripts')
+
+    <!--Ashik:jQuery AJAX Logout-->
+    <script>
+        $(document).on('click', '.button-ajax', function(e) {
+            e.preventDefault();
+            var action = $(this).data('action');
+            var method = $(this).data('method');
+            var csrf = $(this).data('csrf');
+            var reload = $(this).data('reload');
+
+            axios({
+                    url: action,
+                    method: method,
+                    headers: {
+                        'X-CSRF-TOKEN': csrf // Send CSRF token in headers
+                    },
+                    // If your server expects the token in the request body, you can also send it like this:
+                    // data: method.toLowerCase() === 'post' ? { _token: csrf } : null,
+                })
+                .then(function(response) {
+                    console.log(response);
+                    if (response.status === 204 || response.status === 200) { // Check for success status
+                        if (reload) {
+                            window.location.reload();
+                        } else {
+                            window.location.href = '/'; // or your login route
+                        }
+                    } else {
+                        console.error('Logout failed:', response);
+                    }
+                })
+                .catch(function(error) {
+                    console.error('Logout error:', error);
+                });
+        });
+    </script>
     <!--end::Javascript-->
 </body>
 <!--end::Body-->

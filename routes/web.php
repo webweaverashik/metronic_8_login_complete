@@ -29,6 +29,9 @@ Route::middleware('isLoggedIn')->group(function () {
 });
 
 
+
+
+
 Route::get('/send-test-email', function () {
     Mail::raw('This is a test email from Laravel 12!', function ($message) {
         $message->to('ashik.ane.doict@gmail.com')
