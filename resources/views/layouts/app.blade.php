@@ -71,10 +71,10 @@
     <script>
         $(document).on('click', '.button-ajax', function(e) {
             e.preventDefault();
-            var action = $(this).data('action');
-            var method = $(this).data('method');
-            var csrf = $(this).data('csrf');
-            var reload = $(this).data('reload');
+            var action  = $(this).data('action');
+            var method  = $(this).data('method');
+            var csrf    = $(this).data('csrf');
+            var reload  = $(this).data('reload');
 
             axios({
                     url: action,
@@ -91,7 +91,7 @@
                         if (reload) {
                             window.location.reload();
                         } else {
-                            window.location.href = '/'; // or your login route
+                            window.location.href = '/login'; // or your login route
                         }
                     } else {
                         console.error('Logout failed:', response);

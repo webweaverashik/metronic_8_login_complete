@@ -5306,11 +5306,11 @@
                         <!--begin::Menu item-->
                         <div class="menu-item px-5">
                             {{-- <a href="{{ route('logout') }}" class="menu-link px-5">Sign Out</a> --}}
-                            {{-- <form action="{{ route('logout') }}" method="POST">
+                            <form action="{{ route('logout') }}" method="POST">
                                 @csrf
-                                <button type="submit">Logout</button>
-                            </form> --}}
-                            <a class="button-ajax menu-link px-5" href="#" data-action="{{ route('logout') }}" data-method="post" data-csrf="{{ csrf_token() }}" data-reload="true">Sign Out</a>
+                                <button type="submit" class="menu-link px-5 border-0 fw-medium">Logout</button>
+                            </form>
+                            {{-- <a class="button-ajax menu-link px-5" href="#" data-action="{{ route('logout') }}" data-method="post" data-csrf="{{ csrf_token() }}" data-reload="false">Sign Out</a> --}}
                         </div>
                         <!--end::Menu item-->
                     </div>
